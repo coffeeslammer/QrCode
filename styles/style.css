@@ -1,6 +1,8 @@
  @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
 
-
+ :root {
+     font-size: 10px;
+ }
 
  body {
      margin: 0;
@@ -14,7 +16,7 @@
      font-family: 'Outfit', sans-serif;
  }
 
- .container {
+ main {
      display: grid;
      background-color: white;
      width: 320px;
@@ -27,11 +29,10 @@
      height: 288px;
      border-radius: 15px;
      justify-self: center;
-     /* padding-top: 16px; */
      margin-top: 16px;
  }
 
- h2 {
+ h1 {
      text-align: center;
      margin-left: 20px;
      margin-right: 20px;
@@ -39,6 +40,7 @@
      margin-top: 0;
      margin-bottom: 0;
      line-height: 1.2;
+     font-size: 2.2rem;
  }
 
  p {
@@ -47,4 +49,5 @@
      margin-left: 20px;
      margin-right: 20px;
      margin-top: 0;
+     font-size: 1.6rem;
  }

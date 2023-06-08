@@ -33,7 +33,8 @@
  }
 
  img {
-     width: 18rem;
+     /* width: 18rem; */
+     max-width: 100%;
      border-radius: 15px;
      margin-top: 16px;
  }
